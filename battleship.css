@@ -1,0 +1,32 @@
+body{
+    background-color: grey;
+}
+
+#board{
+    position:relative;
+    width:1000px;
+    height:1000px;
+    margin:auto;
+    background: url("board.jpg") no-repeat;
+}
+
+#table{
+    position:absolute;
+    left:150px;
+    right:90px;
+}
+
+
+
+#message{
+    position:absolute;
+}
+
+
+.hit{
+    background:url("ship.png");
+}
+
+.miss{
+    background:url("miss.png");
+}
